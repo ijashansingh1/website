@@ -1,0 +1,36 @@
+/* Unique container class selector */
+.my-container {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* Avatar Styles */
+.my-container .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.my-container .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Text Box Styles */
+.my-container .text-box {
+    flex: 1;
+}
+
+.my-container .text-box p {
+    margin: 0;
+    padding: 5px;
+    color: #333;
+}

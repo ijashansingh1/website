@@ -1,0 +1,61 @@
+/* Container Styles */
+.testimonial-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0;
+    overflow-x: auto; /* Enable horizontal scrolling for overflowing testimonials */
+     /* Prevent testimonials from wrapping to the next line */
+}
+
+/* Testimonial Card Styles */
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin:  10px; /* Add margin between testimonials */
+    max-width: 500px;
+
+    display: inline-block; /* Display testimonials in a horizontal row */
+    vertical-align: top; /* Align testimonials to the top of the container */
+}
+
+/* Testimonial Image Styles */
+.testimonial-image {
+    padding: 20px;
+    text-align: center; /* Center the image within the card */
+}
+
+.testimonial-image img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Testimonial Text Styles */
+.testimonial-text {
+    padding: 20px;
+    color: #333;
+    text-align: right; /* Center the text within the card */
+}
+
+/* Testimonial Author Styles */
+.testimonial-author {
+    font-style: italic;
+    color: #555;
+    font-weight: 600;
+    margin-top: 100px;
+    text-align: center; /* Center the author text within the card */
+}
+
+/* Quotation Mark Styles */
+.quotation-mark {
+    font-size: 24px;
+    color: #007BFF;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+
